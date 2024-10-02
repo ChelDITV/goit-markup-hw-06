@@ -723,11 +723,15 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
+  color: 434455;
   padding: 8px 16px;
-  color: rgba(46, 47, 66, 0.4);
   resize: none;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-textarea::placeholder {
+  color: rgba(142, 143, 153, 0.5)
 }
 
 .form-textarea:focus {
