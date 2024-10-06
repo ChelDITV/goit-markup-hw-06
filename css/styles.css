@@ -1256,9 +1256,7 @@ input:checked+.privacy-label .checkbox-custom {
         flex-wrap: nowrap;
     }
 
-    .email-input {
-        width: 264px;
-    }
+
 
     .container.footer-container {
         flex-wrap: nowrap;
