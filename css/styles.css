@@ -812,15 +812,20 @@ input:checked+.privacy-label .checkbox-custom {
 }
 
 
-@media (max-width: 1157px) {
+@media (min-width: 768px) {
 
     .benefits-list {
         gap: 72px 24px;
     }
 
+    .benefits-list-text {
+        font-weight: 400;
+    }
+
     .benefits-list-title {
         text-align: left;
     }
+
 }
 
 @media (min-width: 1158px) {
@@ -830,12 +835,11 @@ input:checked+.privacy-label .checkbox-custom {
         line-height: 1.2;
     }
 
-    .benefits-list-text {
-        font-size: 400;
-    }
+
 
     .benefits-list {
         flex-wrap: nowrap;
+        gap: 24px;
     }
 
     .benefits-containe {
@@ -844,6 +848,7 @@ input:checked+.privacy-label .checkbox-custom {
         justify-content: center;
     }
 }
+
 
 /* ============ /Benefits ============ */
 
