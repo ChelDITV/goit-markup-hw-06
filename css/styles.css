@@ -921,11 +921,14 @@ input:checked+.privacy-label .checkbox-custom {
 
 @media (min-width: 768px) {
     .team-list {
-        gap: 64px 24px;
+        gap: 24px;
+        max-width: 552px;
+        margin: 0 auto;
     }
 
     .team-list-items {
         max-width: calc((100% - 24px) / 2);
+
     }
 
 
@@ -934,6 +937,7 @@ input:checked+.privacy-label .checkbox-custom {
 @media (min-width: 1158px) {
     .team-list-items {
         max-width: calc((100% - 72px) / 4);
+
     }
 
 
