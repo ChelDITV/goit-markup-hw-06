@@ -273,7 +273,7 @@ body {
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 16px 0 16px;
+    padding: 72px 16px 40px 16px;
 }
 
 .mobile-menu.is-open {
