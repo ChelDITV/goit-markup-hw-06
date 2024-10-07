@@ -921,9 +921,10 @@ input:checked+.privacy-label .checkbox-custom {
 
 @media (min-width: 768px) {
     .team-list {
+        margin: 0 auto;
         gap: 24px;
         max-width: 552px;
-        margin: 0 auto;
+
     }
 
     .team-list-items {
