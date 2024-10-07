@@ -940,6 +940,10 @@ input:checked+.privacy-label .checkbox-custom {
 
     }
 
+    .team-list {
+        max-width: 1440px;
+    }
+
 
 }
 
