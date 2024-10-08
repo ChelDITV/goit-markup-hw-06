@@ -1114,7 +1114,6 @@ input:checked+.privacy-label .checkbox-custom {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-bottom: 72px;
 }
 
 .container.footer-container {
@@ -1139,11 +1138,14 @@ input:checked+.privacy-label .checkbox-custom {
     width: 40px;
 }
 
+.footer-logo {
+    margin-bottom: 72px;
+}
+
 .footer-list-icom {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 72px;
 }
 
 .footer-a-icon {
@@ -1159,6 +1161,10 @@ input:checked+.privacy-label .checkbox-custom {
 
 .footer-icon {
     fill: #f4f4fd;
+}
+
+.footer-icon-container {
+    margin-bottom: 72px;
 }
 
 .footer-a-icon:hover,
@@ -1265,6 +1271,14 @@ input:checked+.privacy-label .checkbox-custom {
 
     .email-input {
         width: 264px;
+        margin-bottom: 0;
+    }
+
+    .footer-icon-container {
+        margin-bottom: 0;
+    }
+
+    .footer-logo {
         margin-bottom: 0;
     }
 
